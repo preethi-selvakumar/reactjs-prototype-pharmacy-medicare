@@ -167,6 +167,16 @@
         font-size: 0.9rem;
     }
 
+    /* medical slider component */
+    .medical-slider-col {
+        width: 45vw;
+        padding: 0 0.5rem;
+    }
+
+    .medical-slider-image-wrapper {
+        height: 200px;
+    }
+
     /* prescription order section */
     .custom-container {
         flex-direction: column;
