@@ -3312,7 +3312,6 @@ body {
 }
 
 /* Express Checkout Section */
-
 .express-checkout-box {
     border: 1px solid #ddd;
     padding: 20px;
@@ -3420,9 +3419,7 @@ body {
     margin-top: 15px;
 }
 
-
 /* Right Column: Order Summary */
-
 .cart-summary-col .cart-order-summary {
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -3482,12 +3479,7 @@ body {
     }
 }
 
-
-
-
-
-
-
+/* login page */
 .login-page-container {
     display: flex;
     min-height: 100vh;
@@ -3696,11 +3688,6 @@ body {
 .signup-link:hover {
     text-decoration: underline;
 }
-
-
-
-
-
 
 /* signup Page */
 .signup-page-container {
