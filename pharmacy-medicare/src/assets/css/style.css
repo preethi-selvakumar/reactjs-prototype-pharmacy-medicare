@@ -362,20 +362,6 @@ body {
     }
 }
 
-@media (max-width: 1200px) {
-    .banner-pharmacy-title {
-        font-size: 120px;
-    }
-}
-
-@media (max-width: 768px) {
-    .banner-pharmacy-title {
-        font-size: 80px;
-        left: 10px;
-        top: 20px;
-    }
-}
-
 .banner-content-row {
     position: relative;
     z-index: 2;
