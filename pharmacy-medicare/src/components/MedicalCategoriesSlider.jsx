@@ -7,7 +7,8 @@ import LiverImg from '../assets/images/liver-care.jpg';
 import RespiratoryImg from '../assets/images/respiratory.jpg';
 import EyeCareImg from '../assets/images/eye-care.jpg';
 
-const sliderCategories = [
+// Original list of categories
+const originalCategories = [
     { name: 'Bone & Joint Care', image: BoneJointImg },
     { name: 'Diabetes Care', image: DiabetesImg },
     { name: 'Kidney Care', image: KidneyImg },
@@ -15,6 +16,15 @@ const sliderCategories = [
     { name: 'Respiratory Care', image: RespiratoryImg },
     { name: 'Eye Care', image: EyeCareImg },
 ];
+
+const sliderCategories = [
+    ...originalCategories, 
+    { name: 'Eye Care', image: EyeCareImg },
+    { name: 'Bone & Joint Care', image: BoneJointImg }, 
+    { name: 'Diabetes Care', image: DiabetesImg }, 
+    { name: 'Kidney Care', image: KidneyImg }, 
+];
+
 
 const MedicalCategoriesSlider = () => {
     return (
