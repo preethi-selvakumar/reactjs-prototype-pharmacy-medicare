@@ -1,0 +1,2096 @@
+/* home page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* navbar */
+    .desktop-only {
+        display: none !important;
+    }
+
+    .mobile-only {
+        display: block;
+    }
+
+    .custom-navbar {
+        justify-content: space-between;
+    }
+
+    .hamburger-btn {
+        background: none;
+        border: none;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #105E07;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        border-top: 1px solid #ddd;
+        animation: slideDown 0.3s ease-in-out;
+        gap: 10px;
+    }
+
+    /* Mobile Search Bar Full Width */
+    .mobile-search {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .mobile-nav-item {
+        padding: 12px 10px;
+        font-size: 1rem;
+        color: #242222;
+        text-decoration: none;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .mobile-nav-item:hover {
+        background-color: #19AB03;
+        color: #fff;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .cart-count-badge {
+        top: -6px;
+        right: 250px;
+        min-width: 16px;
+        height: 16px;
+        padding: 0 3px;
+        font-size: 9px;
+        line-height: 14px;
+    }
+
+    .cart-link-container .nav-icon {
+        margin-right: 3px;
+    }
+
+    .navbar-right-section .cart-link-container {
+        padding-right: 3px;
+    }
+
+    /* home banner */
+    .banner-container {
+        padding: 30px 15px;
+        min-height: auto;
+    }
+
+    .banner-pharmacy-title {
+        font-size: 60px;
+        left: 10px;
+        top: 20px;
+    }
+
+    .banner-content-row {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .banner-center-col {
+        order: -1;
+        margin-bottom: 20px;
+    }
+
+    .banner-lady-image {
+        max-width: 70%;
+        height: auto;
+        transform: translateY(0);
+    }
+
+    .banner-left-col,
+    .banner-right-col {
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+
+    .banner-description {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin: 0 0 30px 0;
+        animation: slideInFromLeft 3s ease-in-out 0.5s infinite alternate;
+    }
+
+    .banner-feature-group {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .banner-feature-item {
+        align-items: center;
+        text-align: left;
+    }
+
+    .banner-feature-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .banner-feature-text {
+        max-width: 120px;
+        font-size: 0.9rem;
+    }
+
+    .banner-right-col {
+        margin-top: 0;
+    }
+
+    .upload-prescription-card {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .upload-text {
+        font-size: 1.1rem;
+    }
+
+    .upload-cloud-icon {
+        font-size: 3rem;
+    }
+
+    .order-prescription-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    /* prescription order section */
+    .custom-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .custom-card {
+        width: 100%;
+        max-width: 450px;
+        min-height: auto;
+    }
+
+    .custom-card-left,
+    .custom-card-right {
+        padding: 25px;
+    }
+
+    .upload-prescription-text,
+    .no-prescription-title {
+        font-size: 1.5rem;
+    }
+
+    .button-section {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .how-to-order-link {
+        margin-top: 5px;
+    }
+
+    .right-card-content {
+        max-width: 100%;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .doctor-image-wrapper {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .doctor-image {
+        height: auto;
+    }
+
+    /* featured brands section */
+    .brand-circle {
+        width: 80px;
+        height: 80px;
+    }
+
+    .brand-circle img {
+        max-width: 70%;
+        max-height: 70%;
+    }
+
+    /* new arrival section speciality buttons section */
+    .specialty-buttons-wrapper {
+        padding: 20px 0;
+    }
+
+    .specialty-buttons-wrapper .specialty-flex-container {
+        gap: 10px;
+        padding: 0 10px;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+
+    .specialty-buttons-wrapper .specialty-item-flex {
+        flex: 0 0 48%;
+    }
+
+    .specialty-buttons-wrapper .specialty-btn {
+        padding: 8px 15px;
+        font-size: 0.875rem;
+        border-radius: 8px;
+        min-width: auto;
+        width: 100%;
+    }
+
+    /* Most Popular Section */
+    .most-popular-section-wrapper {
+        padding: 1.5rem 0;
+    }
+
+    .popular-header-row {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .popular-header-content {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .see-all-link {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .arrow-icon {
+        font-size: 1.2rem;
+    }
+
+    .product-list-row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .product-col {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 1rem;
+    }
+
+    /* testimonials section */
+    .testimonials-container {
+        padding: 20px;
+    }
+
+    .testimonials-heading {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .d-flex.align-items-center.mt-3 {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .reviews-count,
+    .turstpilot-text {
+        font-size: 1rem;
+    }
+
+    .next-button {
+        display: none;
+    }
+
+    .testimonial-card {
+        margin-top: 50px;
+        cursor: pointer;
+    }
+
+    .testimonial-avatar-container {
+        right: 10px;
+        transform: none;
+    }
+
+    .testimonial-stars-on-hover {
+        top: 40px;
+        left: -150px;
+        right: auto;
+        transform: none;
+    }
+
+    .testimonial-text {
+        font-size: 1rem;
+        max-height: 4.5em;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+    }
+
+    .testimonial-card:hover .testimonial-text {
+        max-height: 20em;
+        overflow: visible;
+    }
+
+    /* footer */
+    .footer-content-wrapper {
+        padding: 20px 10px;
+    }
+
+    .footer-top-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        margin-bottom: 20px;
+    }
+
+    .footer-heading {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .footer-column ul li {
+        margin-bottom: 15px;
+        font-size: 0.9rem;
+    }
+
+    .footer-bottom-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .payment-icon {
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    .social-media-icons {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .footer-subscribe-form {
+        width: 100%;
+        align-items: center;
+    }
+
+    .contact-text {
+        font-size: 1rem;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .email-input-group {
+        width: 100%;
+    }
+}
+
+/* home page tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* navbar */
+    .custom-navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px;
+        gap: 15px;
+    }
+
+    /* First row: logo + location + search */
+    .navbar-left-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .navbar-brand-text {
+        flex: 1;
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .location-selector {
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .search-bar {
+        flex: 2;
+        max-width: 350px;
+        margin-left: auto;
+    }
+
+    /* Second row: nav links */
+    .navbar-right-section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .nav-link-item,
+    .healthcare-services-toggle {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+
+    /* Hide hamburger in tablet */
+    .mobile-only {
+        display: none !important;
+    }
+
+    .desktop-only {
+        display: flex !important;
+    }
+
+    /* home banner */
+    .banner-container {
+        padding: 40px 15px 0;
+        min-height: 550px;
+    }
+
+    .banner-pharmacy-title {
+        font-size: 100px;
+        left: 80px;
+        top: 70px;
+    }
+
+    .banner-content-row {
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+
+    .col-lg-5.banner-left-col {
+        flex: 0 0 35%;
+        max-width: 35%;
+        padding-right: 15px;
+    }
+
+    .col-lg-2.banner-center-col {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .banner-lady-image {
+        max-width: 100%;
+        height: 450px;
+        transform: translateY(10px);
+    }
+
+    .col-lg-5.banner-right-col {
+        flex: 0 0 35%;
+        max-width: 35%;
+        padding-left: 15px;
+        margin-top: 100px;
+    }
+
+    .banner-description {
+        font-size: 1.1rem;
+        margin: 150px 0 50px 0;
+    }
+
+    .banner-feature-group {
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    .banner-feature-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .banner-feature-text {
+        font-size: 0.95rem;
+        max-width: 100px;
+    }
+
+    .upload-prescription-card {
+        max-width: 280px;
+        padding: 20px;
+    }
+
+    /* prescription order section */
+    .custom-container {
+        gap: 15px;
+        padding: 0 10px;
+    }
+
+    .custom-card {
+        padding: 10px;
+        min-height: 350px;
+    }
+
+    /* Left Box Adjustments */
+    .upload-box-border {
+        padding: 40px 20px;
+    }
+
+    .upload-prescription-text {
+        font-size: 1.8rem;
+    }
+
+    /* Right Box Adjustments */
+    .right-card-content {
+        max-width: 60%;
+    }
+
+    .no-prescription-title {
+        font-size: 1.2rem;
+    }
+
+    .upload-info {
+        font-size: 0.4rem;
+    }
+
+    /* Button Adjustments */
+    .custom-order-btn,
+    .start-consultation-btn {
+        padding: 8px 0;
+        font-size: 0.9rem;
+        flex-wrap: wrap;
+    }
+
+    /* new arrival section speciality buttons section */
+    .specialty-buttons-wrapper {
+        padding: 25px 0;
+    }
+
+    .specialty-buttons-wrapper .specialty-flex-container {
+        gap: 15px;
+        padding: 0 20px;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+
+    .specialty-buttons-wrapper .specialty-item-flex {
+        flex: 0 0 22%;
+    }
+
+    .specialty-buttons-wrapper .specialty-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+        border-radius: 9px;
+        min-width: auto;
+        width: 100%;
+    }
+
+    /* testimonials section */
+    .testimonials-container {
+        padding: 30px;
+    }
+
+    .testimonials-heading {
+        font-size: 1.8rem;
+    }
+
+    .d-flex.align-items-center.mt-3 {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .reviews-count,
+    .turstpilot-text {
+        font-size: 1.2rem;
+    }
+
+    .next-button {
+        display: block;
+    }
+
+    .testimonial-card {
+        margin-top: 30px;
+    }
+
+    .testimonial-avatar-container {
+        right: 5px;
+        transform: none;
+    }
+
+    .testimonial-stars-on-hover {
+        top: 35px;
+        right: 180px;
+        transform: none;
+    }
+
+    /* footer */
+    .footer-content-wrapper {
+        padding: 30px 15px 10px 15px;
+    }
+
+    .footer-top-row {
+        justify-content: space-between;
+    }
+
+    .footer-column {
+        width: 25%;
+        margin-bottom: 20px;
+    }
+
+    .footer-heading {
+        font-size: 1.3rem;
+    }
+
+    .footer-column ul li {
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+    }
+
+    .footer-bottom-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .payment-icon {
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+    .social-media-icons {
+        max-width: 220px;
+        margin-bottom: 20px;
+    }
+
+    .footer-subscribe-form {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .contact-text {
+        font-size: 1rem;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+    .email-input-group {
+        width: 100%;
+    }
+}
+
+/* home page laptop */
+@media (min-width: 1024px) and (max-width: 1300px) {
+
+    /* navbar */
+    .custom-navbar {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 20px;
+        gap: 15px;
+    }
+
+    /* First row: logo + location + search */
+    .navbar-left-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .navbar-brand-text {
+        flex: 1;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .location-selector {
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .search-bar {
+        flex: 2;
+        max-width: 350px;
+        margin-left: auto;
+    }
+
+    /* Second row: nav links */
+    .navbar-right-section {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .nav-link-item,
+    .healthcare-services-toggle {
+        font-size: 0.95rem;
+        padding: 6px 10px;
+    }
+
+    /* Hide mobile hamburger on laptop */
+    .mobile-only {
+        display: none !important;
+    }
+
+    .desktop-only {
+        display: flex !important;
+    }
+
+    /* home banner */
+    .banner-container {
+        padding: 40px 30px 0;
+        min-height: 580px;
+    }
+
+    .banner-pharmacy-title {
+        font-size: 13vw;
+        left: 120px;
+        top: 80px;
+    }
+
+    .banner-content-row {
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .banner-lady-image {
+        max-width: 400px;
+        height: 500px;
+        transform: translateY(15px);
+    }
+
+    .banner-description {
+        font-size: 1.2rem;
+        margin: 180px 0 70px 0;
+    }
+
+    .banner-feature-group {
+        gap: 15px;
+        justify-content: flex-start;
+    }
+
+    .banner-feature-icon {
+        width: 65px;
+        height: 65px;
+    }
+
+    .banner-feature-text {
+        font-size: 1rem;
+        max-width: 130px;
+    }
+
+    .banner-right-col {
+        padding-left: 20px;
+        margin-top: 150px;
+    }
+
+    .upload-prescription-card {
+        max-width: 280px;
+        padding: 20px;
+    }
+
+    /* prescription order section */
+    .custom-container {
+        gap: 20px;
+    }
+
+    .custom-card {
+        padding: 25px;
+        min-height: 300px;
+    }
+
+    .upload-prescription-text {
+        font-size: 2rem;
+    }
+
+    .no-prescription-title {
+        font-size: 1.4rem;
+    }
+
+    .upload-info {
+        font-size: 0.9rem;
+    }
+
+    .start-consultation-btn,
+    .custom-order-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    /* new arrival section speciality buttons section */
+    .specialty-buttons-wrapper {
+        padding: 30px 0;
+    }
+
+    .specialty-buttons-wrapper .specialty-flex-container {
+        gap: 20px;
+        padding: 0 30px;
+        flex-wrap: wrap;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+
+    .specialty-buttons-wrapper .specialty-item-flex {
+        flex: 0 0 14%;
+    }
+
+    .specialty-buttons-wrapper .specialty-btn {
+        padding: 12px 20px;
+        font-size: 1rem;
+        border-radius: 10px;
+        min-width: auto;
+        width: 100%;
+    }
+
+    /* testimonials section */
+    .testimonials-container {
+        padding: 40px;
+    }
+
+    .testimonials-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .d-flex.align-items-center.mt-3 {
+        justify-content: center;
+    }
+
+    .reviews-count,
+    .turstpilot-text {
+        font-size: 1.3rem;
+    }
+
+    .testimonial-card {
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .testimonial-avatar-container {
+        right: 5px;
+        transform: none;
+    }
+
+    .testimonial-stars-on-hover {
+        right: 80px;
+        top: 35px;
+        transform: none;
+    }
+
+    .testimonial-text {
+        font-size: 0.9rem;
+        max-height: 4.5em;
+        overflow: hidden;
+        transition: max-height 0.3s ease-in-out;
+    }
+
+    .testimonial-card:hover .testimonial-text {
+        max-height: 40em;
+        overflow: visible;
+    }
+
+    /* footer */
+    .footer-content-wrapper {
+        padding: 30px 10px 10px 10px;
+        max-width: 95%;
+    }
+
+    .footer-heading {
+        font-size: 1.35rem;
+    }
+
+    .footer-column ul li {
+        font-size: 0.95rem;
+        margin-bottom: 25px;
+    }
+
+    .footer-bottom-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .payment-icon {
+        height: 150px;
+        margin: 0 10px 20px 10px;
+    }
+
+    .social-media-icons {
+        max-width: 250px;
+        margin-bottom: 20px;
+    }
+
+    .footer-subscribe-form {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .contact-text {
+        font-size: 1.05rem;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .email-input-group {
+        width: 450px;
+    }
+}
+
+/* aboutus page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+    .about-us-container {
+        padding: 20px 10px;
+    }
+
+    .about-us-heading {
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
+
+    .about-us-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-us-image {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 20px;
+    }
+
+    .about-us-content-box {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .about-us-subheading {
+        font-size: 1.4rem;
+    }
+
+    .about-us-text {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+}
+
+/* aboutus page tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .about-us-container {
+        padding: 30px 15px;
+    }
+
+    .about-us-heading {
+        font-size: 2rem;
+        margin-bottom: 40px;
+    }
+
+    .about-us-section {
+        margin-bottom: 30px;
+    }
+
+    .about-us-image {
+        border-radius: 12px;
+    }
+
+    .about-us-content-box {
+        padding: 20px;
+        text-align: left;
+    }
+
+    /* Section 1: Image Left, Content Right */
+    .row.about-us-section:nth-of-type(2) {
+        flex-direction: row-reverse;
+    }
+
+    .about-us-subheading {
+        font-size: 1.6rem;
+    }
+
+    .about-us-text {
+        font-size: 1rem;
+    }
+}
+
+/* aboutus page laptop */
+@media (min-width: 1024px) and (max-width: 1300px) {
+    .about-us-container {
+        padding: 50px 30px;
+    }
+
+    .about-us-heading {
+        font-size: 2.3rem;
+        margin-bottom: 50px;
+    }
+
+    .about-us-section {
+        margin-bottom: 40px;
+    }
+
+    .about-us-content-box {
+        padding: 30px;
+    }
+
+    .about-us-subheading {
+        font-size: 1.7rem;
+    }
+
+    .about-us-text {
+        font-size: 1.05rem;
+    }
+}
+
+/* prescription page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* prescription page banner section */
+    .banner-section {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .left-product-image,
+    .right-product-image {
+        display: none;
+    }
+
+    .banner-content {
+        max-width: 90%;
+        padding: 0 15px;
+    }
+
+    .banner-heading {
+        font-size: 1.8rem;
+    }
+
+    .refill-line {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-paragraph {
+        font-size: 0.9rem;
+        margin-top: 20px;
+    }
+
+    .upload-button {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+
+    /* how it works section */
+    .how-it-works-section {
+        padding: 40px 0;
+    }
+
+    .how-it-works-heading,
+    .how-it-works-subheading {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .prescription-card {
+        text-align: center;
+    }
+
+    .card-top-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .card-number {
+        width: 50px;
+        height: 50px;
+        font-size: 1.1rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .card-description {
+        font-size: 0.85rem;
+    }
+
+    /* prescription page prescription form */
+    .prescription-form-container {
+        padding: 20px;
+    }
+
+    .prescription-form-row.two-column {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .prescription-form-row.two-column .prescription-form-group {
+        min-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .prescription-form-title {
+        font-size: 1.2rem;
+    }
+
+    .prescription-form-description {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .prescription-form-toggle {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .prescription-form-toggle-button {
+        max-width: 100%;
+    }
+
+    .prescription-form-input,
+    .prescription-form-textarea {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .prescription-form-submit {
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 15px;
+    }
+}
+
+/* prescription page tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* prescription page banner section */
+    .banner-section {
+        padding: 50px 0 70px 0;
+    }
+
+    .left-product-image {
+        bottom: 50px;
+        left: 30px;
+        width: 230px;
+    }
+
+    .right-product-image {
+        bottom: 70px;
+        right: 30px;
+        width: 220px;
+    }
+
+    .banner-content {
+        max-width: 60%;
+    }
+
+    .banner-heading {
+        font-size: 2.2rem;
+    }
+
+    .banner-paragraph {
+        font-size: 1rem;
+        margin-top: 25px;
+    }
+
+    /* prescription page how it works section */
+    .how-it-works-section {
+        padding: 50px 0 70px 0;
+    }
+
+    .how-it-works-heading,
+    .how-it-works-subheading {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .prescription-card {
+        padding: 15px;
+    }
+
+    .card-top-content {
+        justify-content: center;
+    }
+
+    .card-number {
+        width: 55px;
+        height: 55px;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-description {
+        font-size: 0.9rem;
+    }
+}
+
+/* prescription page laptop */
+@media (min-width: 1024px) and (max-width: 1300px) {
+
+    /* prescription page banner section */
+    .banner-section {
+        padding: 70px 0 90px 0;
+    }
+
+    .left-product-image {
+        bottom: 50px;
+        left: 50px;
+        width: 300px;
+    }
+
+    .right-product-image {
+        bottom: 70px;
+        right: 50px;
+        width: 320px;
+    }
+
+    .banner-content {
+        max-width: 700px;
+    }
+
+    .banner-heading {
+        font-size: 2.5rem;
+    }
+
+    .banner-paragraph {
+        font-size: 1.1rem;
+        margin-top: 25px;
+    }
+
+    /* prescription page how it works section */
+    .how-it-works-section {
+        padding: 60px 0 80px 0;
+    }
+
+    .how-it-works-heading {
+        font-size: 1.6rem;
+    }
+
+    .how-it-works-subheading {
+        font-size: 1.7rem;
+    }
+
+    .prescription-card {
+        padding: 20px;
+    }
+
+    .card-number {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* consultation page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* doctor consultation section */
+    .doctor-consultation-section {
+        padding: 50px 0;
+    }
+
+    /* Left Column: Text and Buttons */
+    .text-content-col {
+        text-align: center;
+        align-items: center;
+        padding-right: 15px;
+        margin-bottom: 40px;
+    }
+
+    .main-heading {
+        font-size: 2.5rem;
+    }
+
+    .description-text {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .buttons-group {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .book-appointment-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .customer-review-link {
+        font-size: 0.9rem;
+    }
+
+    /* Right Column: Doctor and Background */
+    .image-content-col {
+        display: none;
+    }
+
+    /* Floating Popups */
+    .popup-card {
+        padding: 8px 12px;
+        font-size: 0.85rem;
+        gap: 8px;
+        border-radius: 20px;
+    }
+
+    .popup-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .regular-checkup-popup {
+        top: 15%;
+        left: 2%;
+        transform: rotate(-3deg);
+    }
+
+    .happy-patients-popup {
+        bottom: 15%;
+        right: 2%;
+        transform: rotate(3deg);
+    }
+
+    .popup-text-group .popup-number {
+        font-size: 1rem;
+    }
+}
+
+/* consultation page tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* doctor consultation section */
+    .doctor-consultation-section {
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Left Column: Text */
+    .text-content-col {
+        flex: 1;
+        padding-right: 15px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .main-heading {
+        font-size: 2.4rem;
+        line-height: 1.3;
+        margin-bottom: 15px;
+    }
+
+    .description-text {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+
+    .buttons-group {
+        flex-direction: row;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .book-appointment-btn {
+        padding: 12px 22px;
+        font-size: 0.9rem;
+    }
+
+    .customer-review-link {
+        font-size: 0.9rem;
+    }
+
+    /* Right Column: Image */
+    .image-content-col {
+        flex: 1;
+        min-height: 400px;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doctor-image-container {
+        max-width: 380px;
+        height: 350px;
+    }
+
+    .green-circle-bg {
+        width: 220px;
+        height: 220px;
+        top: 30%;
+    }
+
+    .curve-line-bg {
+        width: 80px;
+        height: 200px;
+        top: -5%;
+        left: 220px;
+        border-width: 7px;
+    }
+
+    .doctor-main-image {
+        width: 280px;
+    }
+
+    /* Popups */
+    .popup-card {
+        padding: 12px 20px;
+        font-size: 0.85rem;
+        border-radius: 18px;
+    }
+
+    .popup-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .regular-checkup-popup {
+        top: 25%;
+        left: -5%;
+    }
+
+    .happy-patients-popup {
+        bottom: 10%;
+        left: 60%;
+    }
+}
+
+/* consultation page laptop */
+@media (min-width: 1024px) and (max-width: 1300px) {
+
+    /* doctor consultation section */
+    .doctor-consultation-section {
+        padding: 70px 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* Left Column: Text */
+    .text-content-col {
+        flex: 1;
+        padding-right: 20px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .main-heading {
+        font-size: 3rem;
+        line-height: 1.35;
+        margin-bottom: 20px;
+    }
+
+    .description-text {
+        font-size: 1.05rem;
+        margin-bottom: 30px;
+    }
+
+    .buttons-group {
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .book-appointment-btn {
+        padding: 14px 26px;
+        font-size: 1rem;
+    }
+
+    .customer-review-link {
+        font-size: 1rem;
+    }
+
+    /* Right Column: Doctor Image */
+    .image-content-col {
+        flex: 1;
+        min-height: 500px;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doctor-image-container {
+        max-width: 480px;
+        height: 420px;
+    }
+
+    .green-circle-bg {
+        width: 300px;
+        height: 300px;
+        top: 28%;
+    }
+
+    .curve-line-bg {
+        width: 120px;
+        height: 280px;
+        top: -8%;
+        left: 300px;
+        border-width: 9px;
+    }
+
+    .doctor-main-image {
+        width: 360px;
+    }
+
+    /* Popups */
+    .popup-card {
+        padding: 15px 28px;
+        font-size: 1rem;
+        border-radius: 20px;
+    }
+
+    .popup-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .regular-checkup-popup {
+        top: 27%;
+        left: -7%;
+    }
+
+    .happy-patients-popup {
+        bottom: 12%;
+        left: 65%;
+    }
+}
+
+/* offer page tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* offer page discount deals section */
+    .discount-deals-container {
+        padding: 2rem;
+        margin-left: 60px;
+    }
+
+    .discount-header-section {
+        margin-bottom: 2rem;
+    }
+
+    .discount-title {
+        font-size: 1.8rem;
+    }
+
+    .terms-conditions {
+        font-size: 1.2rem;
+    }
+
+    .discount-description {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .product-not-found-section {
+        padding: 3rem 0;
+    }
+
+    .not-found-text {
+        font-size: 1.1rem;
+    }
+
+    .custom-request-button {
+        padding: 0.8rem 1.8rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* offer page laptop */
+@media (min-width: 1024px) and (max-width: 1300px) {
+
+    /* offer page discount deals section */
+    .discount-deals-container {
+        padding: 2.5rem;
+        margin-left: 40px;
+    }
+
+    .discount-header-section {
+        margin-bottom: 3rem;
+    }
+
+    .discount-title {
+        font-size: 2rem;
+    }
+
+    .terms-conditions {
+        font-size: 1.3rem;
+    }
+
+    .discount-description {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+
+    .product-not-found-section {
+        padding: 4rem 0;
+    }
+
+    .not-found-text {
+        font-size: 1.2rem;
+    }
+
+    .custom-request-button {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+}
+
+/* product details page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* product view section */
+    .pdv-left-col,
+    .pdv-center-col,
+    .pdv-right-col {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 15px;
+        padding-top: 0;
+    }
+
+    .pdv-image-box {
+        height: 300px !important;
+    }
+
+    .pdv-action-area {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .pdv-add-to-cart-btn {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+/* product details page tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* product view section */
+    .pdv-left-col,
+    .pdv-center-col,
+    .pdv-right-col {
+        padding-top: 20px;
+    }
+
+    .pdv-title {
+        font-size: 1.6rem;
+    }
+
+    .pdv-price {
+        font-size: 1.4rem;
+    }
+
+    .pdv-image-box {
+        height: 450px !important;
+        max-height: 450px;
+    }
+
+    .pdv-delivery-status-box {
+        justify-content: flex-start;
+    }
+
+    .pdv-action-area {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .pdv-add-to-cart-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    /* frequently purchased section */
+    .fp-plus-sign {
+        display: block;
+    }
+}
+
+/* cart page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .cart-main-row {
+        flex-direction: column;
+    }
+
+    /* Left & Right Columns */
+    .cart-details-col,
+    .cart-summary-col {
+        padding: 0;
+        max-width: 100%;
+    }
+
+    .cart-summary-col {
+        margin-top: 20px;
+    }
+
+    /* Product Listing */
+    .cart-header-row {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .cart-product-heading,
+    .cart-quantity-heading,
+    .cart-total-heading {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .cart-item-row {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .cart-item-info {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .cart-item-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .cart-item-quantity,
+    .cart-item-total {
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: left;
+        padding: 5px 0;
+    }
+
+    .cart-item-total {
+        text-align: right;
+    }
+
+    /* Order Summary */
+    .cart-order-summary {
+        padding: 15px;
+    }
+
+    .cart-summary-title {
+        font-size: 16px;
+    }
+
+    .cart-summary-item {
+        font-size: 14px;
+    }
+
+    .cart-summary-total {
+        font-size: 16px;
+    }
+
+    .cart-checkout-btn {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .cart-continue-shopping {
+        font-size: 13px;
+    }
+}
+
+/* payment page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .checkout-details-col,
+    .cart-summary-col .cart-order-summary {
+        padding: 15px;
+    }
+
+    .name-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .name-row .half-width,
+    .name-row .flex-grow-input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .name-row .half-width:last-child,
+    .name-row .flex-grow-input:last-child {
+        margin-bottom: 0;
+    }
+
+    .express-pay-buttons {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .pay-image-container {
+        max-width: 100%;
+    }
+
+    .divider-or::before,
+    .divider-or::after {
+        width: 30%;
+    }
+
+    .shipping-option-row {
+        gap: 20px;
+        padding: 5px 0;
+    }
+
+    .shipping-text-option {
+        font-size: 16px;
+    }
+
+    .cart-summary-col {
+        margin-top: 20px;
+    }
+}
+
+/* login page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .login-page-container {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .login-image-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .login-pharmacy-image {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .login-form-col {
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 20px 15px;
+        box-shadow: none;
+    }
+
+    .login-form-box {
+        max-width: 100%;
+    }
+
+    .login-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .login-input-field {
+        font-size: 14px;
+        padding: 10px 10px 10px 35px;
+    }
+
+    .input-icon {
+        font-size: 14px;
+    }
+
+    .toggle-icon {
+        font-size: 16px;
+    }
+
+    .login-btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .forgot-password-link {
+        font-size: 13px;
+    }
+
+    .login-divider {
+        font-size: 13px;
+        margin: 20px 0 15px 0;
+    }
+
+    .login-divider::before,
+    .login-divider::after {
+        width: 30%;
+    }
+
+    .social-login-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-login-btn {
+        font-size: 14px;
+    }
+
+    .signup-text {
+        font-size: 14px;
+    }
+
+    .signup-link {
+        font-size: 14px;
+    }
+}
+
+/* login page tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .login-page-container {
+        flex-direction: row;
+        min-height: 100vh;
+    }
+
+    .login-image-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+        height: auto;
+        display: block;
+    }
+
+    .login-pharmacy-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .login-form-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+        height: auto;
+        padding: 30px 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        box-shadow: none;
+    }
+
+    .login-form-box {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .login-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .login-input-field {
+        font-size: 15px;
+        padding: 11px 11px 11px 38px;
+    }
+
+    .input-icon {
+        font-size: 15px;
+    }
+
+    .toggle-icon {
+        font-size: 17px;
+    }
+
+    .login-btn {
+        font-size: 17px;
+        padding: 11px;
+    }
+
+    .forgot-password-link {
+        font-size: 13px;
+    }
+
+    .login-divider {
+        font-size: 13px;
+        margin: 25px 0 18px 0;
+    }
+
+    .login-divider::before,
+    .login-divider::after {
+        width: 35%;
+    }
+
+    .social-login-group {
+        gap: 12px;
+    }
+
+    .social-login-btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .signup-text {
+        font-size: 14px;
+    }
+
+    .signup-link {
+        font-size: 14px;
+    }
+}
+
+/* signup page mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* Hide left image column */
+    .signup-image-col {
+        display: none;
+    }
+
+    /* Make form column full width and centered */
+    .signup-form-col {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .signup-form-box {
+        width: 100%;
+        max-width: 100%;
+        padding: 30px 20px;
+        margin: 0 0 20px 0;
+    }
+
+    .signup-title {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .signup-subtitle {
+        text-align: center;
+    }
+
+    .signup-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .signup-social-group {
+        gap: 10px;
+    }
+
+    .signup-login-text {
+        font-size: 13px;
+    }
+}
